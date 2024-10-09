@@ -1,0 +1,93 @@
+*{
+    align-items: center;
+    justify-content: center;
+}
+body, html {
+    /* height: 100%;  */
+    margin: 0px;
+    padding: 0px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+} 
+.page-content {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+
+    background-color: white;
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.1); */
+    /* width: 90%; */
+    /* max-width: 600px; */
+}
+#image-container {
+    margin-top: 1%;
+    margin-left: 20%;
+    width: 60%; /* Set the container width */
+     height: 720px; /* Set the container height */
+    overflow:auto; /*Hide overflow to keep image within container */
+    position: relative;
+    border: 2px dotted cyan;
+    object-fit: cover;
+    align-items: center;
+}
+#image-container img {
+    object-fit:cover;
+    position: absolute;
+    top: 0;
+    left:15%;
+    width: auto;
+    height: 100%;
+    cursor: grab;
+    transition: transform 0.25s ease;
+}
+#controls {
+    margin-top: 2px;
+}
+.spce li{
+    justify-content: space-between;
+}
+.spce{
+    justify-content: space-between;
+    display:inline-flex;list-style: none;background-color: rgb(14, 75, 14);color: white; padding: 0px;width:100%;
+}
+li{
+    display: inline;
+    /* padding:0px; */
+    padding-left: 0px;
+    padding-right: 5px;
+    justify-content: space-between;
+}
+#panorama{
+    width: 100%;
+    height: 60vh;
+    margin: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+@media only screen and (max-width: 680px) {
+    /* For mobile phones: */
+    .eve{
+      display: none;
+      /* display: inline; */
+    }
+    .spce{
+        justify-content: center;
+        /* display:flex; */
+    }
+    .spce li{
+        justify-content: space-around;
+        display: block;
+    }
+    #image-container img {
+       
+        left:0%;
+        width: 100%;
+        height: auto;
+    }
+  }
