@@ -37,8 +37,8 @@ body, html {
 #image-container img {
     object-fit:cover;
     position: absolute;
-    top: 0;
-    /* left:15%; */
+    top: 0px;
+    left: 0px;
     width: auto;
     height: 100%;
     cursor: grab;
