@@ -1,0 +1,117 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VrinDarshan</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+    <link rel="stylesheet" type="text/css" href="/index.css">
+</head>
+<body>
+
+    <header>
+        <div>
+        <ul class="spce even">
+            <li>
+                <h1 style="padding-left: 50px;">VrindArshan</h1></li>
+                <li>
+                    <ul class="eve">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/components/about.html">About</a></li>
+                        <li><a href="/components/ulist.html">Listed Temples</a></li>
+                        <li><a href="/components/tours.html">Packages</a></li>
+                        <li><a href="/components/membership.html">Subscription</a></li>
+                    </ul>
+                </li>
+            </ul>
+            </div>
+        </header>
+
+
+        <div class="page-content">
+            <h1>Temple Name:<br>Shri Radharaman ji Temple, Vrindavan</h1>
+            <div style="display: block; justify-content: space-around; align-items: center;padding:2% 20% 0% 20%;">
+                Radharamnji is a revered figure in certain Indian spiritual traditions, often associated with the worship of Lord Krishna and his consort Radha. The term is commonly used as a respectful way to refer to the divine relationship between these two deities. In various practices, it emphasizes devotion and the loving nature of their godly union.
+
+                Please double-check the specific context you're interested in for a more detailed understanding                <div id="panorama">
+            </div>
+            </div>
+            <script>
+pannellum.viewer('panorama', {   
+    "default": {
+        "firstScene": "circle",
+        "author": "Gantavya BAnsal",
+        "autoLoad":true,
+        "sceneFadeDuration": 1000
+    },
+    
+    "scenes": {
+        "circle": {
+            "title": "Radharaman temple",
+            "hfov": 1,
+            "pitch": 10,
+            "yaw": -0,
+            "type": "equirectangular",
+            "panorama": "/assets/radharamanji/6079211f38d945000946f7d6.jpeg",
+            "hotSpots": [
+                {
+                    "pitch": -2.1,
+                    "yaw": 132.9,
+                    "type": "scene",
+                    "text": "Spring House or Dairy",
+                    "sceneId": "house"
+                },
+                {
+                    "pitch": -0.6,
+                    "yaw": 37.1,
+                    "type": "scene",
+                    "text": "mandir tree",
+                    "sceneId": "circle",
+                    "targetYaw": -23,
+                    "targetPitch": 2
+                }
+            ]
+        },
+
+        "house": {
+            "title": "Spring House or Dairy",
+            "hfov": 110,
+            "yaw": 50,
+            "type": "equirectangular",
+            "panorama": "/images/bma-0.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -0.6,
+                    "yaw": 37.1,
+                    "type": "scene",
+                    "text": "Mason Circle",
+                    "sceneId": "circle",
+                    "targetYaw": -23,
+                    "targetPitch": 2
+                }
+            ]
+        }
+    }
+});
+</script>
+
+</div>
+<footer>
+<div>
+<ul class="spce even">
+    <li>
+        <h1 style="padding-left: 50px;color: white;">Under DevOps</h1></li>
+        <li>
+            <ul class="eve">
+                <li><a href="https://www.github.com/stubanx/">Contribute</a></li>
+                <li><a href="mailto:gantavyaoo@gmail.com"> Contact Us</a></li>
+                <li><a href="mailto:gantavyaoo@gmail.com?subject=improvement+for+vrindarshan">Suggestion Box</a></li>
+                <li><a href="https://www.buymeacoffee.com">Support</a></li>
+            </ul>
+        </li>
+    </ul>
+    </div>
+</footer>
+
+</body>
+</html>
