@@ -26,7 +26,7 @@ body, html {
 #image-container {
     margin-top: 1%;
     margin-left: 20%;
-    width: 800px; /* Set the container width */
+    width: 1000px; /* Set the container width */
     height: 600px; /* Set the container height */
     overflow:auto; /*Hide overflow to keep image within container */
     position: relative;
